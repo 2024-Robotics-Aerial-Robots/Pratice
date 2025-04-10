@@ -3,13 +3,11 @@
 將本次作業package移到你的catkin_ws
 
 ```
-$ mkdir -p catkin_ws/src
-$ cd ~/catkin_ws/src
-$ mv /your_folder/ ~/catkin_ws/src/
-$ cd ..
+
+$ cd ~/{your workspace}
 $ catkin_make
 $ source ~/.bashrc
-$ source ~/catkin_ws/devel/setup.bash
+$ source ~/{your workspace}/devel/setup.bash
 ```
 
 ## 檔案說明
